@@ -1,0 +1,4 @@
+#Sun Feb 27 16:29:06 EET 2022
+base.0=C\:\\Users\\mahme\\Desktop\\SaviorRunner\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

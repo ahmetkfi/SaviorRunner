@@ -1,0 +1,118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:3-52
+12-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:17-49
+13    <uses-feature
+13-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-63
+15        android:required="false" />
+15-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:64-88
+16    <uses-feature
+16-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-88
+17        android:name="android.hardware.touchscreen"
+17-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-60
+18        android:required="false" />
+18-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:61-85
+19    <uses-feature
+19-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-99
+20        android:name="android.hardware.touchscreen.multitouch"
+20-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-71
+21        android:required="false" />
+21-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:72-96
+22    <uses-feature
+22-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-108
+23        android:name="android.hardware.touchscreen.multitouch.distinct"
+23-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-80
+24        android:required="false" />
+24-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:81-105
+25
+26    <application android:extractNativeLibs="true" >
+26-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-17:17
+26-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+27        <activity
+27-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+28            android:name="com.unity3d.player.UnityPlayerActivity"
+28-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+29            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+29-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:182-363
+30            android:hardwareAccelerated="false"
+30-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:399-434
+31            android:launchMode="singleTask"
+31-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:150-181
+32            android:resizeableActivity="false"
+32-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:364-398
+33            android:screenOrientation="fullSensor"
+33-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-149
+34            android:theme="@style/UnityThemeSelector" >
+34-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+35            <intent-filter>
+35-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+36-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+38-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+39            </intent-filter>
+40
+41            <meta-data
+41-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+42                android:name="unityplayer.UnityActivity"
+42-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+43                android:value="true" />
+43-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+44            <meta-data
+44-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+45                android:name="android.notch_support"
+45-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+46                android:value="true" />
+46-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+47        </activity>
+48
+49        <meta-data
+49-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+50            android:name="unity.splash-mode"
+50-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+51            android:value="0" />
+51-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+52        <meta-data
+52-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+53            android:name="unity.splash-enable"
+53-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+54            android:value="True" />
+54-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+55        <meta-data
+55-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+56            android:name="unity.launch-fullscreen"
+56-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+57            android:value="True" />
+57-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+58        <meta-data
+58-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+59            android:name="unity.allow-resizable-window"
+59-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+60            android:value="False" />
+60-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+61        <meta-data
+61-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+62            android:name="notch.config"
+62-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+63            android:value="portrait|landscape" />
+63-->C:\Users\mahme\Desktop\SaviorRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+64    </application>
+65
+66</manifest>
